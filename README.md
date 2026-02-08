@@ -1,93 +1,47 @@
-Customer Retention Analysis Dashboard
-📌 Project Overview
-The telecom industry faces high customer attrition rates, impacting revenue and long-term growth.
-
-This project utilizes Microsoft Power BI to analyze customer behavior, identify key churn drivers, and recommend data-driven retention strategies.
-
-The analysis is based on a dataset of 7,043 customers, transformed into a multi-page interactive dashboard providing insights into:
-
-Customer tenure
-
-Demographics
-
-Service usage
-
-Billing and payment behavior
-
-🔍 Key Business Insights
-High Churn Rate:
-The overall churn rate is 26.5%, indicating a critical need for intervention.
-
-Risk by Contract Type:
-Customers on Month-to-Month contracts are the most volatile, with a 42.7% churn rate.
-
-Payment Friction:
-Customers using Electronic Check show a significantly higher churn rate (45.3%) compared to auto-pay users.
-
-Pricing Sensitivity:
-Churn increases noticeably when monthly charges exceed $80.
-
-🛠 Tools & Technologies
-Power BI Desktop – Multi-page dashboarding, page navigation, bookmarks
-
-Power Query – Data transformation and cleaning (ETL)
-
-DAX (Data Analysis Expressions) – Calculated measures for churn rate and conditional logic
-
-Data Modeling – Created Tenure Groups for drill-down analysis
-
-📂 Project Structure
+CUSTOMER RETENTION ANALYSIS DASHBOARD
+1. Introduction
+The telecom industry faces high customer attrition rates, which significantly impact revenue and long-term business growth. This project focuses on analyzing customer churn patterns using Microsoft Power BI to identify key risk factors and recommend data-driven retention strategies.
+The analysis is based on the IBM Telco Customer Churn dataset containing 7,043 customer records. The dataset was transformed and modeled into a multi-page interactive dashboard to derive meaningful business insights.
+2. Pricing Sensitivity Insight
+The analysis reveals that customer churn increases noticeably when monthly charges exceed $80. This indicates strong price sensitivity among high-paying customers and highlights the importance of value perception and pricing strategies in customer retention.
+3. Tools and Technologies Used
+The following tools and technologies were utilized in this project:
+Power BI Desktop – Development of a multi-page interactive dashboard, including page navigation and bookmarks.
+Power Query – Data cleaning, transformation, and ETL processes.
+DAX (Data Analysis Expressions) – Creation of calculated measures such as churn rate and implementation of conditional logic.
+Data Modeling – Creation of Tenure Groups to enable structured drill-down analysis.
+4. Project Structure
+The project consists of the following components:
 Customer Retention Analysis.pbix
-Source Power BI file containing the 3-page report, data models, and drill-down features
-
+The main Power BI file containing the complete 3-page dashboard, data model, relationships, measures, and drill-down functionality.
 Project Report.pdf
-Executive summary with detailed strategic recommendations
-
+A detailed executive summary including business insights and strategic recommendations.
 Dataset
-IBM Telco Customer Churn Dataset
-
-📊 Dashboard Pages
-1️⃣ Executive Summary
-A high-level overview for management, highlighting key KPIs and primary churn drivers.
-
-2️⃣ Demographics & Drill-Down
-Detailed analysis of customer profiles including:
-
+IBM Telco Customer Churn Dataset used for analysis.
+5. Dashboard Overview
+The dashboard is divided into three major analytical sections:
+5.1 Executive Summary
+Provides a high-level overview for management, highlighting key performance indicators (KPIs) such as total customers, churn rate, and primary churn drivers.
+5.2 Demographics and Drill-Down Analysis
+This section provides detailed insights into customer profiles based on:
 Gender
-
 Senior Citizen Status
-
 Partner Status
-
-Includes a drill-down feature to analyze tenure groups versus individual months.
-
-3️⃣ Services & Account Analysis
-Investigation into how:
-
-Internet services
-
-Tech support
-
-Streaming services
-
-Billing preferences
-
-impact customer retention.
-
-💡 Strategic Recommendations
-Based on the analysis, the following actions are proposed:
-
-Targeted Migration
-Offer a 15% discount to encourage Month-to-Month users to switch to 1-Year contracts.
-
-Incentivize Auto-Pay
-Provide a one-time bill credit for customers switching from Electronic Check to Credit Card Auto-Pay.
-
-High-Value Retention Strategy
-Implement a "Price Lock" guarantee for loyal customers paying more than $80 per month.
-
-Service-Level Intervention
-Target Fiber Optic users with satisfaction surveys, as they show disproportionately high churn.
-
-👩‍💻 Author
-Priyadharshini S
+A drill-down feature enables analysis of tenure groups and further breakdown into individual tenure months for deeper understanding.
+5.3 Services and Account Analysis
+This section investigates how service subscriptions and billing preferences influence customer retention, including:
+Internet Services
+Tech Support
+Streaming Services
+Billing and Payment Methods
+6. Strategic Recommendations
+Based on the analytical findings, the following retention strategies are recommended:
+6.1 Targeted Migration Strategy
+Offer a 15% discount to customers on Month-to-Month contracts to encourage migration to 1-Year contracts, thereby reducing volatility.
+6.2 Auto-Pay Incentive Program
+Provide a one-time bill credit to customers who switch from Electronic Check to Credit Card Auto-Pay, reducing payment-related churn.
+6.3 High-Value Customer Retention Plan
+Introduce a “Price Lock” guarantee for loyal customers paying more than $80 per month to enhance trust and long-term retention.
+6.4 Service-Level Intervention
+Conduct targeted satisfaction surveys for Fiber Optic users, as they demonstrate disproportionately high churn rates.
+Author: Priyadharshini S
